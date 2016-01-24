@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  min-height: 1200px; }
+
+.position-1 {
+  position: relative;
+  height: 300px;
+  background: #cc9292; }
+  .position-1 .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: red; }
+    .position-1 .inner a:hover {
+      color: #CCC; }
+
+/*# sourceMappingURL=main.css.map */
