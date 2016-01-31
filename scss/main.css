@@ -17,6 +17,16 @@ body {
     transform: translateX(-50%) translateY(-50%);
     background: red; }
     .position-1 .inner a:hover {
-      color: #CCC; }
+      color: #DDD; }
+
+table {
+  border-collapse: collapse; }
+  table th, table td {
+    padding: 5px 10px;
+    border: 1px solid #cc9292; }
+  table tr:nth-child(2n) {
+    background: #333; }
+  table tr:nth-child(2n+1) {
+    background: #eee; }
 
 /*# sourceMappingURL=main.css.map */
